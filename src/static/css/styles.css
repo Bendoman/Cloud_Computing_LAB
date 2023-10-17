@@ -1,5 +1,5 @@
 body {
-    background-color: #f4f4f4;
+    background-color: #BDCBBF;
     margin-top: 50px;
     font-family: 'Lato';
 }
@@ -36,4 +36,16 @@ body {
 
 button:focus {
     border: 1px solid #333;
+}
+
+.container-fluid:has(.remove:hover) {
+	background-color: #dc3545;	
+}
+
+.container-fluid {
+	transition: 0.3s;
+}
+
+.completed {
+	background-color: #28a745;
 }
