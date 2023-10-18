@@ -47,5 +47,7 @@ button:focus {
 }
 
 .completed {
+	color: white;
+	opacity: .65;
 	background-color: #28a745;
 }
